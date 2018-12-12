@@ -34,7 +34,7 @@ Criar nova branch: `git branch <nova_branch>`
 Modificar qual branch esta usando: `git checkout <nome_branch>`
 
 Fazer merge: `git merge <nome_branch>`  
-(Vai pra branch master e executa o comando com o nome da branch em que a modificação está)
+(Vai para branch master e executa o comando com o nome da branch em que a modificação está)
 
 Deletar determinada branch: `git branch -d <nome_branch>`  
 Caso não tenha sido adicionado a master usar o `-D`
