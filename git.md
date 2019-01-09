@@ -14,16 +14,16 @@ Adicionar para o Index: `git add <arquivo.md> <arquivo.md>` ou `git add *` ou `g
 
 Enviar para o HEAD: `git commit -m "comentários das alterações"`
 
-Discartar as mudanças feitas: `git checkout HEAD <arquivo.md>` ou `git checkout -- <arquivo.md>`
+Descartar as mudanças feitas: `git checkout HEAD <arquivo.md>` ou `git checkout -- <arquivo.md>`
 
 Visualizar as mudanças recentes: `git diff <arquivo.md>`
 
-Discartar mudanças da Stage: `git reset HEAD <arquivo.md>`
+Descartar mudanças da Stage: `git reset HEAD <arquivo.md>`
 
 Visualizar as mudanças com os IDs: `git log`
 
-Discartar até determinado ponto as mudanças da stage: `git reset <pelo_menos_7_numeros_do_ID>`  
-Lembrar de discartar também na pasta de trabalho: `git checkout HEAD <arquivo.md>`
+Descartar até determinado ponto as mudanças da stage: `git reset <pelo_menos_7_numeros_do_ID>`  
+Lembrar de Descartar também na pasta de trabalho: `git checkout HEAD <arquivo.md>`
 
 Visualizar qual foi a ùltima mudança feita: `git show HEAD <arquivo.md>`
 
